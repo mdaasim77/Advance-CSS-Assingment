@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineargradient 5</title>
+    <style>
+        body{
+            overflow: hidden;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 12px;
+            filter: blur(5px);
+        }
+        img:hover{
+            filter: blur(0);
+            transition: 1.5s;
+            scale: 2;
+        }
+        h1{
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover the curser on image to unlock prize</h1>
+    <img src="img/mountain1.webp" alt="">
+</body>
+</html>

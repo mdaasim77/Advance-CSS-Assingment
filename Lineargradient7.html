@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineargradient 7</title>
+    <style>
+       body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+       }
+       button{
+        padding: 15px 40px;
+        border: 0;
+        background: linear-gradient(to right,#74b6d2,#6464dc,#45459e);
+        border-radius: 10px;
+        animation: bounce 1s infinite alternate;
+       }
+       a{
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+       }
+       @keyframes bounce {
+        0%,
+        100%{
+            transform: translateY(-25%);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+
+       }
+    </style>
+</head>
+<body>
+    <button>
+        <a href="https://pwskills.com">Click here to visit PW Skills</a>
+    </button>
+</body>
+</html>
